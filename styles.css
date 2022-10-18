@@ -1,0 +1,20 @@
+#opacity {
+  background: limegreen;
+  width: fit-content;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  transition: transform ease-in-out 1s;
+}
+
+#opacity:hover {
+  transform: rotate(90deg);
+}
+
+#opacity span {
+  opacity: 0;
+  transition: opacity ease 1s;
+}
+
+#opacity:hover span {
+  opacity: 1;
+}
